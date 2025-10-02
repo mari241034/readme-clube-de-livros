@@ -1,0 +1,55 @@
+
+
+ Documento de Requisitos – App de Indicações de Livros
+
+Disciplina: Programação Web, Projeto e Desenvolvimento de Sistemas, Banco de Dados II
+
+Alunos:
+Professores: Camila Santos, Eudóxia Moura, Marcos Faino
+
+
+ Descrição Geral do Sistema
+
+O sistema de indicações de livros tem como objetivo permitir que usuários registrem, consultem e gerenciem recomendações literárias de forma simples e organizada. Ele possibilita que cada usuário cadastre um livro com título, autor e motivo/descrição da indicação, além de visualizar uma lista com todas as recomendações cadastradas.
+
+Opcionalmente, o sistema poderá permitir a edição e exclusão de indicações, bem como a busca por título ou autor.
+
+
+ Pesquisa Desk
+
+O levantamento de requisitos foi realizado por meio de análise de sistemas similares (como aplicativos de leitura e anotações) e entrevistas com leitores interessados em compartilhar indicações. As necessidades identificadas foram:
+
+* Facilidade para registrar rapidamente uma indicação.
+* Organização das indicações em uma lista clara e acessível.
+* Possibilidade de editar ou excluir indicações antigas.
+* Recurso de busca para encontrar livros específicos.
+
+ Atores / Personas
+
+Usuário Leitor: Cadastra indicações de livros (título, autor e descrição/motivo), consulta a lista de recomendações, edita e exclui indicações.
+Administrador (opcional): Gerencia o sistema, podendo excluir indicações indevidas e monitorar o uso.
+
+
+ Requisitos Funcionais (CASOS DE USO)
+
+* Permitir o cadastro de indicações de livros (título, autor e motivo/descrição).
+* Permitir a listagem de todas as indicações cadastradas.
+* Permitir a exclusão de indicações existentes.
+* (Opcional) Permitir a edição de indicações cadastradas.
+* (Opcional) Permitir a pesquisa por título ou autor.
+
+Requisitos Não Funcionais
+
+* Interface simples e de fácil usabilidade (HTML/CSS, com possibilidade de uso de Bootstrap).
+* Sistema desenvolvido em Flask com Python 3.x.
+* Banco de dados SQLite.
+* Leve e de fácil manutenção.
+* Compatibilidade com navegadores modernos e dispositivos móveis.
+* Tempo de resposta inferior a 2 segundos por operação.
+
+ Referências
+
+* Livros de Programação Web e Banco de Dados.
+* Documentação oficial do Flask e SQLAlchemy.
+* Aplicativos de anotações e recomendações literárias (como Skoob e Goodreads).
+
